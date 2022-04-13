@@ -11,7 +11,7 @@
           </nav>
           <div class="row d-flex justify-content-center mt-5">
             <div class="col-lg-8 col-md-8 col-sm-12">
-                <img src="{{ url('assets/uploads/tourisms/'.$destinations->image) }}" alt="" class="" height="400" width="700"/>
+                <img src="{{ url('assets/uploads/tourisms/'.$destinations->image) }}" alt="" class="" height="200" width="auto"/>
             </div>       
         </div>
         <div class="row">
