@@ -25,5 +25,10 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Paginator::useBootstrap();
+
+        // for production on server as secure_asset()
+        if(env('APP_ENV' !== 'local')){
+            URL::forscheme('https');
+        }
     }
 }
