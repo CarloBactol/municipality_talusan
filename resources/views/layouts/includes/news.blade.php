@@ -33,7 +33,7 @@
             @foreach ($news as $new)
             <div class="col-lg-8">
                <div class="py-3">
-                <img src="{{ asset('assets/uploads/news/'.$new->image) }}" class="card-img-top" alt="..." height="500" width="500">
+                <img src="{{ secure_asset('assets/uploads/news/'.$new->image) }}" class="card-img-top" alt="..." height="500" width="500">
                </div>
                <div class="py-3">
                    <h4>{{ $new->title }}</h4>
@@ -51,7 +51,7 @@
                 @foreach ($recents as $recent)
                 <div class="row ">
                     <div class="card w-100 mb-3 mb-sm-2">
-                        <img src="{{ asset('assets/uploads/news/'.$recent->image) }}" class="card-img-top" alt="..." height="100" width="100">
+                        <img src="{{ secure_asset('assets/uploads/news/'.$recent->image) }}" class="card-img-top" alt="..." height="100" width="100">
                         <div class="card-body">
                           <h5 class="card-title">{{ $recent->title }}</h5>
                           <small class="text-secondary">Author: {{ $recent->author }}</small></br>

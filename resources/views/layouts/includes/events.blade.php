@@ -9,7 +9,7 @@
     <div class="owl-carousel owl-theme mt-3">
         @foreach ($events as $event)
         <div class="card">
-            <img class="card-img-top" src="{{ asset('assets/uploads/events/'.$event->image) }}" alt="Card image" height="240px">
+            <img class="card-img-top" src="{{ secure_asset('assets/uploads/events/'.$event->image) }}" alt="Card image" height="240px">
             <div class="card-body">
               <h4 class="card-title">{{ $event->title }}</h4>
               <p class="card-text">{{ \Carbon\Carbon::parse($event->created_at)->diffForHumans() }}</p>
