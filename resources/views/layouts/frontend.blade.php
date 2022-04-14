@@ -9,19 +9,19 @@
 
     <title>MunicipalityOfTalusan</title>
 
-    <link rel="shortcut icon" type="img/png" href="{{ asset('frontend/img/favicon.png') }}">
+    <link rel="shortcut icon" type="img/png" href="{{ secure_asset('frontend/img/favicon.png') }}">
 
-    <link href="{{ asset('backend/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" rel="stylesheet"  type="text/css">
+    <link href="{{ secure_asset('backend/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" rel="stylesheet"  type="text/css">
 
     <!-- Custom styles for this template-->
-    <link href="{{ asset('frontend/css/custom.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('frontend/css/custom.css') }}" rel="stylesheet">
 
-     <!-- Owl Carousel Assets -->
-     <link href="{{ asset('frontend/css/owl.carousel.css') }}" rel="stylesheet">
-     <link href="{{ asset('frontend/css/owl.theme.css') }}" rel="stylesheet">
-     <link href="{{ asset('frontend/css/owl.transitions.css') }}" rel="stylesheet">
+     <!-- Owl Carousel secure_assets -->
+     <link href="{{ secure_asset('frontend/css/owl.carousel.css') }}" rel="stylesheet">
+     <link href="{{ secure_asset('frontend/css/owl.theme.css') }}" rel="stylesheet">
+     <link href="{{ secure_asset('frontend/css/owl.transitions.css') }}" rel="stylesheet">
 
-    <link href="{{ asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ secure_asset('frontend/css/bootstrap.min.css') }}" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -51,7 +51,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
       <!-- bootstrap 5 bundle -->
-    <script src="{{ asset('frontend/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ secure_asset('frontend/js/bootstrap.bundle.min.js') }}"></script>
 
       <!-- ck-editor -->
     <script src="https://cdn.ckeditor.com/ckeditor5/30.0.0/classic/ckeditor.js"></script>
@@ -59,9 +59,9 @@
    
 
       <!-- owl carousel for image display -->
-    <script src="{{ asset('frontend/js/jquery-1.9.1.min.js') }}"></script>
-    <script src="{{ asset('frontend/js/owl.carousel.js') }}"></script>
-    <script src="{{ asset('frontend/js/owl.carousel.min.js') }}"></script>
+    <script src="{{ secure_asset('frontend/js/jquery-1.9.1.min.js') }}"></script>
+    <script src="{{ secure_asset('frontend/js/owl.carousel.js') }}"></script>
+    <script src="{{ secure_asset('frontend/js/owl.carousel.min.js') }}"></script>
     
     <script>
        $(".owl-carousel").owlCarousel({
