@@ -28,8 +28,8 @@ class AppServiceProvider extends ServiceProvider
         Paginator::useBootstrap();
 
         // for production on server as secure_asset()
-        if(env('APP_ENV' !== 'local')){
-            URL::forscheme('https');
-        }
+        // if(env('APP_ENV' !== 'local')){
+        //     URL::forscheme('https');
+        // }
     }
 }
