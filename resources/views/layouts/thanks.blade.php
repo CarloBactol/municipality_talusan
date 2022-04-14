@@ -27,7 +27,7 @@
           <p class="lead"><strong>Your email was sent to Mununicipality of Talusan Support</strong> </p>
           <hr>
           <p class="lead">
-            <a class="btn btn-primary btn-sm" href="http://127.0.0.1:8000/" role="button">Continue to homepage</a>
+            <a class="btn btn-primary btn-sm" href="http://talusan-city.herokuapp.com/" role="button">Continue to homepage</a>
           </p>
         </div>
         <body>

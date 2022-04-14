@@ -17,7 +17,7 @@
                             <input type="name" class="form-control" name="name" placeholder="Your Name">
                             <label for="email" class="mb-2 mt-2">Your Email</label>
                             <input type="email" class="form-control" name="email" placeholder="Your email">
-                            <input type="hidden" name="_next" value="http://127.0.0.1:8000/thanks">
+                            <input type="hidden" name="_next" value="http://talusan-city.herokuapp.com/thanks">
                             <input type="hidden" name="_captcha" value="false">
                             <input type="hidden" name="_subject" value="New submission!">
                         </div>
