@@ -14,6 +14,6 @@ class NewsUpdate extends Model
 
     protected $table = 'news_updates';
     protected $dates = ['deleted_at'];
-    protected $fillable = ['author', 'title', 'description', 'type', 'image'];
+    protected $fillable = ['id','author', 'title', 'description', 'type', 'image'];
     protected $hidden = ['created_at', 'updated_at'];
 }
