@@ -7,7 +7,7 @@
     <div class="carousel-inner">
      @foreach ($sliderViews as $key => $slider)
       <div class="carousel-item {{$key == 0 ? 'active' : '' }}">
-        <img src="{{ secure_asset('assets/uploads/slider/'.$slider->image) }}"  alt="images-slider" class="w-100">
+        <img src="{{ asset('assets/uploads/slider/'.$slider->image) }}"  alt="images-slider" class="w-100">
         <div class="carousel-caption d-none d-md-block">
 
         </div>
