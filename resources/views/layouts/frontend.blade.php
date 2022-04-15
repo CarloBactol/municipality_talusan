@@ -11,7 +11,7 @@
 
     <link rel="shortcut icon" type="img/png" href="{{ secure_asset('frontend/img/favicon.png') }}">
 
-    <link href="{{ secure_asset('backend/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" rel="stylesheet"  type="text/css">
+    <link href="{{ asset('backend/vendor/fontawesome-free/css/all.min.css') }}" rel="stylesheet" rel="stylesheet"  type="text/css">
 
     <!-- Custom styles for this template-->
     <link href="{{ secure_asset('frontend/css/custom.css') }}" rel="stylesheet">
